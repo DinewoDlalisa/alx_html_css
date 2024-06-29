@@ -6,6 +6,9 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
 }
 
 /* Flexbox properties for <main> */
@@ -19,20 +22,27 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
-    padding: 10px;
-    background-color: #f9f9f9;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
-    padding: 10px;
-    background-color: #e9e9e9;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 /* Styling for header and footer */
 header, footer {
-    background-color: #ccc;
+    background-color: #436f76;
+    color: white;
     padding: 10px;
     text-align: center;
 }
@@ -44,6 +54,7 @@ header ul {
     margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 header ul li {
@@ -52,9 +63,92 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 header ul li a:hover {
     text-decoration: underline;
 }
+
+/* Logo styling */
+.logo {
+    font-size: 2em;
+    margin-right: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e9e9e9;
+}
+
+/* Article-specific styling */
+article h1, article h2, article h3, article h4 {
+    color: #333;
+}
+
+article p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+article a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article table {
+    margin: 20px 0;
+}
+
+article th, article td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+article th {
+    background-color: #f4f4f4;
+}
+
+/* Footer styling */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+ 
