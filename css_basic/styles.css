@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Flexbox properties for <body> */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Flexbox properties for <main> */
+main {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+
+/* Flexbox properties for <article> and <aside> */
+article {
+    flex: 2;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #e9e9e9;
+}
+
+/* Styling for header and footer */
+header, footer {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Additional styling for header navigation */
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
