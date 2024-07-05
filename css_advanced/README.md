@@ -23,12 +23,12 @@ The design file for this project is available on Figma. You can access it [here]
 
 ## Project Structure
 
-- GitHub Repository: [alx_html_css](https://github.com/yourusername/alx_html_css)
+- GitHub Repository: [alx_html_css] (https://github.com/DinewoDlalisa/alx_html_css)
 - Directory: css_advanced
 - Files: `README.md`, `index.html`
 
 ## Instructions
 
 1. Clone the repository to your local machine:
-   git clone https://github.com/yourusername/alx_html_css.git
+   git clone https://github.com/DinewoDlalisa/alx_html_css.git
 
