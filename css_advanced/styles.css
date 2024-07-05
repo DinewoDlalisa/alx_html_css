@@ -144,49 +144,49 @@ body {
     }
 }
   .quote-section {
-    background-color: #C271FF; /* Adjusted to match the background color in the image */
-    padding: 40px 0; /* Adjusted padding for better spacing */
-    color: #ffffff; /* White text color */
-    text-align: center; /* Center aligned content */
+    background-color: #C271FF; 
+    padding: 40px 0;
+    color: #ffffff; 
+    text-align: center;
 }
 
 .quote-content {
-    display: flex; /* Use flexbox to align items */
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center content horizontally */
-    max-width: 800px; /* Maximum width of the content */
-    margin: 0 auto; /* Center the content within the section */
-    flex-wrap: wrap; /* Enable flex-wrap to allow wrapping */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: 800px; 
+    margin: 0 auto;
+    flex-wrap: wrap; 
 }
 
 .quote-image {
-    width: 100px; /* Image size */
-    height: 100px; /* Image size */
-    border-radius: 50%; /* Circular image */
-    margin: 0 20px 20px 0; /* Space between the image and the text */
-    flex-shrink: 0; /* Prevent image from shrinking */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    margin: 0 20px 20px 0; 
+    flex-shrink: 0;
 }
 
 .quote-text-content {
-    max-width: 600px; /* Maximum width for the text content */
-    text-align: left; /* Align text to the left */
-    flex: 1; /* Allow text content to take up remaining space */
+    max-width: 600px; 
+    text-align: left; 
+    flex: 1; 
 }
 
 .quote-text {
-    font-size: 1.2em; /* Larger font size for the quote */
-    margin-bottom: 10px; /* Space below the quote text */
-    line-height: 1.5; /* Line height for readability */
+    font-size: 1.2em; 
+    margin-bottom: 10px; 
+    line-height: 1.5; 
 }
 
 .quote-author {
-    font-size: 1em; /* Font size for author name */
+    font-size: 1em;
 }
 
 .quote-title {
-    font-style: italic; /* Italicized title */
-    font-size: 0.9em; /* Slightly smaller font size for the title */
-    color: #ffffff; /* Color of the title */
+    font-style: italic; 
+    font-size: 0.9em; 
+    color: #ffffff; 
 }
 
 
