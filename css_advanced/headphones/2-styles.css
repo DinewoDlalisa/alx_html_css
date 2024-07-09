@@ -16,6 +16,7 @@
 .result-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: white;
 }
 
 .result-section p {
@@ -30,16 +31,28 @@
     flex-wrap: wrap;
     gap: 20px;
 }
-
 .pentagon-wrap {
-    background-color: #FF6565; /* Hexagon color */
+    position: relative;
     width: 150px;
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.pentagon-wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.pentagon-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     color: white;
+    animation: scaleUp 2s ease-in-out infinite alternate; /* Add animation */
 }
 
 .pentagon-content h3 {
@@ -49,10 +62,9 @@
 }
 
 .pentagon-content p {
-    font-size: 1;
+    font-size: 1rem;
     margin: 0;
 }
-
 
 @media (max-width: 768px) {
     .card-component {
@@ -69,6 +81,7 @@
         font-size: 1.5rem;
     }
 }
+
 @media (max-width: 480px) {
     .card-component {
         flex-direction: column;
@@ -76,11 +89,11 @@
     }
 
     .pentagon-wrap {
-        width: 80px; 
-        height: 80px; 
+        width: 80px;
+        height: 80px;
     }
 
     .pentagon-content h3 {
-        font-size: 1.2rem; 
+        font-size: 1.2rem;
     }
 }
